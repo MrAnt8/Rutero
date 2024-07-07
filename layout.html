@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" >-->
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta http-equiv="Content-type" content="application/vnd.ms-excel; charset=UTF-8">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="max-age=0, no-cache, no-store, must-revalidate">
+	<meta http-equiv="Expires" content="Wed, 11 Jan 1984 05:00:00 GMT">
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+
+	<title></title>
+	<link rel="shortcut icon" href="images/favicon.ico"> 
+	<link rel="stylesheet" type="text/css" href="javascript/vendors/DataTables-1.10.10/css/jquery.dataTables.min.css"/>
+	<!--<link type="text/css" href="javascript/css/bootstrap.css?v={IFS_VERSION}" rel="stylesheet">-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="userresources/bootstrap.min.css">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+	<link type="text/css" href="javascript/css/jquery-ui.css?v={IFS_VERSION}" rel="stylesheet">
+	<link type="text/css" href="javascript/css/clockpicker.css" rel="stylesheet">
+	<link type="text/css" href="javascript/css/standalone.css" rel="stylesheet">
+	<link type="text/css" href="javascript/css/presto.css?v={IFS_VERSION}" rel="stylesheet">
+	<link type="text/css" href="javascript/css/jquery.signaturepad.css?v={IFS_VERSION}" rel="stylesheet">
+	<link type="text/css" href="javascript/css/ResponsiveTable.css?v={IFS_VERSION}" rel="stylesheet">	
+	<link type="text/css" href="{SKIN_PATH}/StyleSheet.css?v={IFS_VERSION}" rel="stylesheet">
+	<link type="text/css" href="{SKIN_PATH}/theme.css?v={IFS_VERSION}" rel="stylesheet" data-theme>
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css">
+	<link type="text/css" href="javascript/css/slippry.css" rel="stylesheet">
+	
+	<!--[if lt IE 9]><link rel="StyleSheet" type="text/css" href="{SKIN_PATH}/StyleSheetIE.css"><![endif]-->
+	<script language="JavaScript" type="text/javascript" src="javascript/jquery.js?v={IFS_VERSION}"></script>
+	<script language="JavaScript" type="text/javascript" src="javascript/jquery-ui.js?v={IFS_VERSION}"></script>
+	<!--<script language="JavaScript" type="text/javascript" src="userresources/bootstrap.min.js"></script>-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="javascript/FileSaver.js"></script>
+	<!--script language="JavaScript" type="text/javascript" src="userresources/jspdf.debug.js"></script-->
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.debug.js"></script>-->
+	<!--script language="JavaScript" type="text/javascript" src="userresources/jspdf.debug.js"></script-->
+	<script language="JavaScript" type="text/javascript" src="userresources/jsPdf.js"></script>
+	<script language="JavaScript" type="text/javascript" src="userresources/html2canvas.js"></script>
+	<!--script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script-->
+	<!--script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"-->
+	
+	<!--script language="JavaScript" type="text/javascript" src="userresources/JsBarcode.all.min.js"></script-->
+	<!--<script src="https://cdn.jsdelivr.net/jsbarcode/3.6.0/JsBarcode.all.min.js"></script>-->
+	<script src="https://cdn.jsdelivr.net/npm/bwip-js"></script>
+	
+	
+	
+	
+	<script language="JavaScript" type="text/javascript" src="userresources/generateTimbrePdf.js"></script>
+	
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.js"> </script>
+	<script src="https://cdn.jsdelivr.net/g/filesaver.js"></script>
+	
+	<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+		
+	<script language="JavaScript" type="text/javascript" src="userresources/ProgramsPdf.js"></script>
+	
+	<script language="JavaScript" type="text/javascript" src="userresources/funcionesChequePdf.js"></script>
+	
+	<!--<script language="JavaScript" type="text/javascript" src="javascript/tableexport.js"></script>-->
+	<script language="JavaScript" type="text/javascript" src="userresources/tableexport2.js"></script>
+	<script language="JavaScript" type="text/javascript" src="javascript/moment.js"></script>
+	<script language="JavaScript" type="text/javascript" src="javascript/clockpicker.js"></script>
+	<script language="JavaScript" type="text/javascript" src="userresources/dataList.js"></script>
+	<script language="JavaScript" type="text/javascript" src="userresources/Literales.js"></script>
+	<!-- <script src='https://www.google.com/recaptcha/api.js?&render=explicit&hl=es' async defer></script> -->
+	<script language="JavaScript" type="text/javascript" src="javascript/slippry.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+	
+	 <!--<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>-->
+	 <!--<script src="https://cdn.jsdelivr.net/jsbarcode/3.6.0/JsBarcode.all.min.js"></script>-->
+	 <!--<script src="JsBarcode.all.min.js"></script>-->
+	 <!--<script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>-->
+	 
+	 <!--<script src="https://cdn.jsdelivr.net/npm/bwip-js"></script>-->
+	 <!--<script type="module"> import @types/bwip-js from https://cdn.jsdelivr.net/npm/@types/bwip-js@3.2.0/+esm </script>-->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bwip-js/2.0.0/bwip-js.min.js"></script>
+		
+
+
+
+	<!--[if lt IE 9]><script src="javascript/flashcanvas.js?v={IFS_VERSION}"></script><![endif]-->
+	{HEAD}
+	<script language="JavaScript">
+		Presto.nVisualEditorColWidth = 7;
+		Presto.nVisualEditorRowHeight = 19;
+		//fading error messages flag - Set to true for fading informational messages
+		var bAllowNonErrorMessagesToFade = false;
+		
+		// Uncomment the next line to enable Visual Editor responsive grid
+		//Presto.SetDisplayMode('responsive');
+		//Presto.SetEnvironmentSetting('ContainerWidth', '1260'); 
+	</script>
+</head>
+ <body>
+ <!-- <svg id="barcode" hidden></svg> -->
+	
+	<!--<svg id="barcode" width="100" height="50"  ></svg>-->
+	<!---->
+	<canvas id="barcode" width="100" height="50"hidden ></canvas>
+
+	{ADMIN_HEADER}
+
+	<!-- outer-content -->
+    <div id="outer-content">
+		<!-- Page Header -->
+		<div id="page-title-block" class="page-title-block">
+		  <div class="container-logo hide"><img src="{SKIN_PATH}/images/logoaqui2.png"></div>
+		  <img id="page-title-image" class="page-title-image" src="{SKIN_PATH}/images/white.jpg">
+		  <div class="container-info top"><span class="span-info" id="usuario"></span><span class="span-info" id="d-usuario"></span></div>
+		  <div class="container-info middle"><span class="span-info" id="agencia"></span><span class="span-info" id="d-agencia"></span> <span class="span-info" id="fecha"></span><span class="span-info" id="hora"></span><span class="span-info" id="dir-ip"></span></div>
+		  <div class="container-info bottom"><span class="span-info" id="cod-pantalla"></span><span class="span-info" id="nombre-pantalla"></span></div>
+		  <div id="page-divider-top" class="page-divider"></div>
+		</div>
+		<div id="content-header">    			
+			<h1 id="content-header-detail" class="title"></h1>
+		</div>
+		<!-- End Page Header -->
+		<!-- page_wrapper -->
+		<div id="page_wrapper"> 		
+					
+			<!--Page content-->
+			<div id="page-content">
+				<div id="Content">
+					<div class="row">
+					<!--Menu lateral-->
+						<div class="col-xs-2 left-menu">
+							<div class="container-btns-menu">
+								<div id="chg-pwd-btn" title="Cambiar Contrase&ntilde;a"></div>
+								<div id="confirm-btn" title="Aceptar"></div>
+								<div id="back-btn" title="Regresar"></div>
+								<div id="i-pdf-btn" title="Guardar PDF"></div>
+								<div id="spool-btn" title="Trabajar Documentos de Impresi&oacute;n"></div>
+								
+							</div>
+							<div class="container-others"></div>
+						</div>
+						<form method="post" id="m" name="m" action="presto" class="col-xs-10" autocomplete="off"></form>
+				</div>
+			</div>
+				
+				<!-- Page Footer -->
+				<div id="Footer">
+					<!-- Footer -->
+					<div id="SubFooter"></div>
+				</div>
+			<!-- End Page Footer -->
+			</div>
+			<!--End Page content-->
+					
+		</div> 
+		<!-- End page_wrapper -->
+		{ADMIN_FOOTER}
+	</div>
+	<!-- End outer-content -->
+</body>
+</html>

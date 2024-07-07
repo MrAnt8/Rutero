@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "nombre": "Olimpica Tequendama    Cl. 6a #43-51"
+    },
+    {
+      "id": 2,
+      "nombre": "Exito San Fernando    Cl. 5 #38D - 35"
+    },
+    {
+      "id": 3,
+      "nombre": "Mercamio Calle 5    Cl. 5 #59A-17"
+    },
+    {
+      "id": 4,
+      "nombre": "Cruz Verde    Cra. 44 #11a-39"
+    },
+    {
+      "id": 5,
+      "nombre": "Tienda D1 - La Base    Cra. 8 #5852"
+    },
+    {
+       "id": 6,
+    "nombre": "Alkosto Paso Ancho    Cl. 13 #80 - 187 "
+  },
+  {
+    "id": 7,
+    "nombre": "Tiendas Ara - Colseguros    Cl. 13 #31-42"
+  },
+  {
+    "id": 8,
+    "nombre": "Tienda Ara Capri    Cra. 70 #10 A 98"
+  },
+  {
+    "id": 9,
+    "nombre": "Dollarcity    Cra. 56 #13-55"
+  },
+  {
+    "id": 10,
+    "nombre": "Carulla Ciudad Jardin    Cl. 13 #103-95"
+  }
+
+  ]
+  

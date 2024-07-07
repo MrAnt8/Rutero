@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"/>
+    <title>Opciones</title>
+    <style>
+        body {
+            margin: 80px;
+            padding: 0 auto;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 5px;
+            justify-content: center;
+            margin: 20px;
+        }
+      
+        .card{
+    width: 200px;
+    height: 100%;
+    object-fit: cover;         
+        }  
+        h2{
+            margin-top: 5pxs;
+            margin-left:30px;
+            color: blue;
+        }
+        a{
+            margin: 30px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar-brand">
+        <h1 align="center">OPCIONES</h1>
+    </nav>   
+    <a href="puntoventa.html">Atras</a>
+    <div class="container">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnIR9IqPIx8JaHI2J4V3mmbgZXc21WazHgKAJtSO3r4Q&s" alt="">
+            <h4 align="center">Actividades</h4>
+        </div>
+        
+        <div class="card">
+            <img src="data:image/png;base64,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" alt="">
+            <h4 align="center">Encuesta</h4>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2YOrtbRx6QyVABNFxGsA_Re1KGaQ_aC9WcbbWSfVHYv1LkpAV4W-hyJ28EA&s" alt="">
+            <h4 align="center">Planes Comerciales</h4>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS668Y964rBz9glrNvrdorE7OZLUzdxpc7Png&usqp=CAU" alt="">
+            <h4 align="center">Momentos</h4>
+        </div>
+
+       
+        
+ 
+    </div>
+    <h2>Posteriormente visualizaras los modulos activos de captura de informacion</h2>
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+    background-color: rgb(230, 239, 248);
+  }
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+
+  h2{
+    background-color: rgb(35, 116, 236);
+  }
+
+  .container{
+    width: 50%;   
+    margin-top: 120px; 
+  }
